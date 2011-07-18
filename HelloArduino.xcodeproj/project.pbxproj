@@ -22,6 +22,8 @@
 		C9F5C86F13D1ECEB00B631FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F5C86D13D1ECEB00B631FA /* InfoPlist.strings */; };
 		C9F5C87213D1ECEB00B631FA /* HelloArduinoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C9F5C87113D1ECEB00B631FA /* HelloArduinoTests.h */; };
 		C9F5C87413D1ECEB00B631FA /* HelloArduinoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F5C87313D1ECEB00B631FA /* HelloArduinoTests.m */; };
+		C9F5C88213D1F24C00B631FA /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F5C88113D1F24C00B631FA /* libRscMgrUniv.a */; };
+		C9F5C88413D2003000B631FA /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F5C88313D2003000B631FA /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,26 @@
 		C9F5C84413D1ECEB00B631FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9F5C84613D1ECEB00B631FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9F5C84813D1ECEB00B631FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C9F5C84C13D1ECEB00B631FA /* HelloArduino-Info.plist */ = {isa = PBXFileReference; path = "HelloArduino-Info.plist"; sourceTree = "<group>"; };
+		C9F5C84C13D1ECEB00B631FA /* HelloArduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloArduino-Info.plist"; sourceTree = "<group>"; };
 		C9F5C84E13D1ECEB00B631FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9F5C85013D1ECEB00B631FA /* HelloArduino-Prefix.pch */ = {isa = PBXFileReference; path = "HelloArduino-Prefix.pch"; sourceTree = "<group>"; };
+		C9F5C85013D1ECEB00B631FA /* HelloArduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloArduino-Prefix.pch"; sourceTree = "<group>"; };
 		C9F5C85113D1ECEB00B631FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9F5C85313D1ECEB00B631FA /* HelloArduinoAppDelegate.h */ = {isa = PBXFileReference; path = HelloArduinoAppDelegate.h; sourceTree = "<group>"; };
+		C9F5C85313D1ECEB00B631FA /* HelloArduinoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloArduinoAppDelegate.h; sourceTree = "<group>"; };
 		C9F5C85413D1ECEB00B631FA /* HelloArduinoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloArduinoAppDelegate.m; sourceTree = "<group>"; };
 		C9F5C85713D1ECEB00B631FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C9F5C85913D1ECEB00B631FA /* HelloArduinoViewController.h */ = {isa = PBXFileReference; path = HelloArduinoViewController.h; sourceTree = "<group>"; };
+		C9F5C85913D1ECEB00B631FA /* HelloArduinoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloArduinoViewController.h; sourceTree = "<group>"; };
 		C9F5C85A13D1ECEB00B631FA /* HelloArduinoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloArduinoViewController.m; sourceTree = "<group>"; };
 		C9F5C85D13D1ECEB00B631FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloArduinoViewController.xib; sourceTree = "<group>"; };
 		C9F5C86413D1ECEB00B631FA /* HelloArduinoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloArduinoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F5C86C13D1ECEB00B631FA /* HelloArduinoTests-Info.plist */ = {isa = PBXFileReference; path = "HelloArduinoTests-Info.plist"; sourceTree = "<group>"; };
+		C9F5C86C13D1ECEB00B631FA /* HelloArduinoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloArduinoTests-Info.plist"; sourceTree = "<group>"; };
 		C9F5C86E13D1ECEB00B631FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9F5C87013D1ECEB00B631FA /* HelloArduinoTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloArduinoTests-Prefix.pch"; sourceTree = "<group>"; };
+		C9F5C87013D1ECEB00B631FA /* HelloArduinoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloArduinoTests-Prefix.pch"; sourceTree = "<group>"; };
 		C9F5C87113D1ECEB00B631FA /* HelloArduinoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloArduinoTests.h; sourceTree = "<group>"; };
 		C9F5C87313D1ECEB00B631FA /* HelloArduinoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloArduinoTests.m; sourceTree = "<group>"; };
+		C9F5C87E13D1F24C00B631FA /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		C9F5C87F13D1F24C00B631FA /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		C9F5C88113D1F24C00B631FA /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		C9F5C88313D2003000B631FA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F5C88413D2003000B631FA /* ExternalAccessory.framework in Frameworks */,
 				C9F5C84513D1ECEB00B631FA /* UIKit.framework in Frameworks */,
 				C9F5C84713D1ECEB00B631FA /* Foundation.framework in Frameworks */,
 				C9F5C84913D1ECEB00B631FA /* CoreGraphics.framework in Frameworks */,
+				C9F5C88213D1F24C00B631FA /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,9 @@
 		C9F5C83513D1ECEB00B631FA = {
 			isa = PBXGroup;
 			children = (
+				C9F5C88313D2003000B631FA /* ExternalAccessory.framework */,
+				C9F5C87D13D1F24C00B631FA /* inc */,
+				C9F5C88013D1F24C00B631FA /* lib */,
 				C9F5C84A13D1ECEB00B631FA /* HelloArduino */,
 				C9F5C86A13D1ECEB00B631FA /* HelloArduinoTests */,
 				C9F5C84313D1ECEB00B631FA /* Frameworks */,
@@ -153,6 +164,23 @@
 				C9F5C87013D1ECEB00B631FA /* HelloArduinoTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F5C87D13D1F24C00B631FA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5C87E13D1F24C00B631FA /* redparkSerial.h */,
+				C9F5C87F13D1F24C00B631FA /* RscMgr.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		C9F5C88013D1F24C00B631FA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5C88113D1F24C00B631FA /* libRscMgrUniv.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +392,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloArduino/HelloArduino-Prefix.pch";
 				INFOPLIST_FILE = "HelloArduino/HelloArduino-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +409,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloArduino/HelloArduino-Prefix.pch";
 				INFOPLIST_FILE = "HelloArduino/HelloArduino-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
